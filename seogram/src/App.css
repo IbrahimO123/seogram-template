@@ -1,0 +1,33 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.bg {
+  background-color: #6C55F9;
+}
+.img1 {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 16px;
+  color: #6C55F9;
+}
+.divider {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 32px;
+    height: 3px;
+    border-radius: 40px;
+    background-color: #6C55F9
+}
+.d2 {
+  display:flex;
+  justify-content: center;
+  align-self: center;
+}
+.subhead {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #898798;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
