@@ -4,8 +4,11 @@ import frame1 from '../assets/img/about_frame.png';
 import service1 from '../assets/img/services/service-1.svg';
 import service2 from '../assets/img/services/service-2.svg';
 import service3 from '../assets/img/services/service-3.svg';
+import bg1 from '../assets/img/bg_pattern.svg'
 import { IoIosBusiness } from 'react-icons/io';
 import {ImPlay2} from 'react-icons/im'
+
+
 function Home() {
     const styleImg1 = {
         width:'400px',
@@ -15,6 +18,13 @@ function Home() {
     }
     const boxstyle1 ={
      boxShadow: '0 3px 12px rgb(95 92 120 / 12%)',
+    }
+
+    const styleService = {
+      backgroundImage: `url(${bg1})`,
+      backgroundImageSize: 'cover',
+      backgroundImageRepeat: 'no-repeat',
+      backgroundImagePosition: 'center center',
     }
     return (
         <div>
@@ -202,13 +212,59 @@ function Home() {
 
             </div>
             {/***********Our Services *********/}
-            <div>
-                <div>
-                 <label >Check your Website SEO:</label>
-                 <input placeholder="E.g google.com" type="text"> </input>
+            <div className="services w-100 text-center py-5 " >
+                <div className="services2 py-5" style={styleService} >
+                 <label className="d-block h3 text-white" >Check your Website SEO:</label>
+                 <div className="input-group w-50 mx-auto py-3">
+                       <input className="form-control w-50 mx-auto" placeholder="E.g google.com" type="text" ></input>
+                        <button className="btn btn-success rounded">Check Now</button>
+                 </div>
                 </div>
+            </div>
+            <div className="container" >
+                  <div className="text-center pt-5 pb-4" >
+                          <p className="subhead" >PRICING PLAN</p>
+                          <p className="text-secondary  h2" >Choose plan the right for you</p>
+                          <p className="divider mx-auto" ></p>
+                      </div>
+                      <div  className="py-5 text-center">
+                         <div className="row d-flex justify-content-around flex-nowrap" >
+                              <div className="col" style={boxstyle1} >{/*******Price Plan 1 */}
+                                <p>BASIC</p>
+                                <p><span>$</span>39.<span>99</span></p>
+                                <p>25 Analytics<span> Campaign</span></p>
+                                <p>1,300 Change<span>Keywords</span></p>
+                                <p>Social Media<span>Reviews</span></p>
+                                <p>1 Free<span>Optimization</span></p>
+                                <p>24/7<span>Support</span></p>
+                              </div>{/*******Price Plan 1 ************/}
+
+                              <div className="col" style={boxstyle1} >{/*******Price Plan 2 */}
+                                <p>BASIC</p>
+                                <p><span>$</span>39.<span>99</span></p>
+                                <p>25 Analytics<span> Campaign</span></p>
+                                <p>1,300 Change<span>Keywords</span></p>
+                                <p>Social Media<span>Reviews</span></p>
+                                <p>1 Free<span>Optimization</span></p>
+                                <p>24/7<span>Support</span></p>
+                              </div>{/*************** Price Plan 2 **********/}
+
+                              <div className="col" style={boxstyle1} >{/*******Price Plan 3 */}
+                                <p>BASIC</p>
+                                <p><span>$</span>39.<span>99</span></p>
+                                <p>25 Analytics<span> Campaign</span></p>
+                                <p>1,300 Change<span>Keywords</span></p>
+                                <p>Social Media<span>Reviews</span></p>
+                                <p>1 Free<span>Optimization</span></p>
+                                <p>24/7<span>Support</span></p>
+                              </div>{/**********************Price Plan 3 ************/}
+
+                              </div>
+                      </div>
             </div>
         </div>
     )
 }
+
+
 export default Home
