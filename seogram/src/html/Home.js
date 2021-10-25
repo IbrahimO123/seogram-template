@@ -209,9 +209,7 @@ function Home() {
                 </div>
                 </div>{/**col4 */}
                 </div>
-                
              </div>   
-
             </div>
             {/*******************************************Our Services **********************************/}
             <div className="services w-100 text-center py-5 " >
@@ -251,7 +249,6 @@ function Home() {
                                   <a href="##" className="btn form-control btn1 btn-lg" >Subscribe</a>
                                 </div>
                               </div>{/*******Price Plan 1 ************/}
-
                               <div className="col-lg-3 text-white text-center py-3 bg" style={boxstyle1} >{/*******Price Plan 2 */}
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Standard</p>
@@ -271,7 +268,6 @@ function Home() {
                                   <a href="##" className="btn form-control btn1 btn-lg" >Subscribe</a>
                                 </div> 
                               </div>{/*************** Price Plan 2 **********/}
-
                               <div className="col-lg-3 text-center py-4" style={boxstyle1} >{/*******Price Plan 3 */}
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Pofessionals</p>
@@ -291,7 +287,6 @@ function Home() {
                                   <a href="##" className="btn form-control btn1 btn-lg" >Subscribe</a>
                                 </div>
                               </div>{/**********************Price Plan 3 ************/}
-
                               </div>
                       </div>
             </div> {/*********** PRICING PLAN ******************/}
@@ -320,7 +315,6 @@ function Home() {
                        <p className=""><img className="img-responsive" src={banner2} alt="" ></img></p>
                    </div>
             </div>
-
             </div>
            {/****************************Blog section ************************************/}
            <div className="my-5" >
@@ -341,7 +335,6 @@ function Home() {
                    </div>
                 </div>
                 </div> {/* card-1  */}
-
                <div className="col-lg-3" >{/*****************  card-2  */}
                 <div className="card border border-light text-center py-3 px-3 box" style={boxstyle1} >
                   <div className="card-body">
@@ -352,7 +345,6 @@ function Home() {
                   </div>
                 </div> 
                 </div>{/* card-2  */}
-
                 <div className="col-lg-3" >{/************ card-3  */}
                 <div className="card border border-light text-center box" style={boxstyle1}>
                     <div className="card-body" >
