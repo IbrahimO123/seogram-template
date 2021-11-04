@@ -27,8 +27,8 @@ function Home() {
     }
     return (
         <div>
+        {/***********************Header *******************/}
         <div  className="container" >
-            {/******************************Header ***************************************************/}
             <div className="jumbotron jumbotron-fluid bg-light mt-4 py-5">
             <div className="row align-items-center flex-wrap-reverse h-100" >
              <div  className="col-md-6 py-5">
@@ -56,21 +56,21 @@ function Home() {
               </div>
             </div>
             </div>
-            {/***********************Header **************/}
+        {/***************Header **************/}
 
-            {/****************************Card-layout section ************************************/}
-            <Content/>
-            {/*******card-layout section ************/}
+        {/********Card-layout section ***********/}
+        <Content/>
+        {/*******card-layout section ************/}
 
-        {/******************************About Us ***************************************************/}
+        {/*********About Us ************/}
                  <AboutUs/>
         {/**********About Us ************/}
 
-        {/******************************Our Services ***************************************************/}
+        {/*********Our Services ***********/}
            <ServiceUs/>
-        {/************Our Services **************/}
+        {/*******Our Services **********/}
 
-        {/*******************************************Our Services Check **********************************/}
+        {/****************Our Services Check *******************/}
             <div className="services w-100 text-center py-5 " >
                 <div className="services py-5" style={styleService} >
                  <label className="d-block h3 text-white" >Check your Website SEO:</label>
@@ -80,10 +80,10 @@ function Home() {
                  </div>
                 </div>
             </div>
-        {/*********************************** PRICING PLAN *********************************/}
+        {/******* PRICING PLAN ******/}
             <Pricing/>
-         {/*********** PRICING PLAN ******************/}
-            {/********************************** Visibility SEO **************************************************/}
+        {/*** PRICING PLAN ********/}
+        {/******************* Visibility SEO ********************/}
             <div className="bg2 py-5 text-white" style={styleService} >
             <div className="container ">
               <div className="row align-items-center" >
@@ -111,12 +111,13 @@ function Home() {
               </div>
             </div>
             </div>
-           {/****************************Blog section ************************************/}
-              <BlogSmall/>
-            {/*******Blog section ************/}
+        {/***********Blog section *********/}
+          <BlogSmall/>
+        {/*******Blog section ************/}
 
-            {/***************************************Footer********************************/}
-            <Footer/>
+        {/***********Footer**************/}
+        <Footer/>
+        {/**************Footer**************/}
         </div>
     )
 }
