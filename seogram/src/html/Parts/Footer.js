@@ -22,7 +22,7 @@ function Footer() {
             <div className="container" >
                <div className="row mb-5" >
                     <div className="col-lg-3 py-3" >
-                        <p><h3>SEOGram</h3></p>
+                        <h3>SEOGram</h3>
                         <p className="text-muted" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure</p>
                         <p>
                         <span className="media-link" ><FaFacebook/></span>
@@ -34,7 +34,7 @@ function Footer() {
                     </div>
             
                     <div className="col-lg-3 py-3" >
-                    <p><h5>Company</h5></p>
+                    <h5>Company</h5>
                     <ul className="text-muted list-unstyled" >
                         <li><a className="text-decoration-none link2 btn" href="########">About Us</a></li>
                         <li><a className="text-decoration-none link2 btn" href="#######">Career</a></li>
@@ -45,14 +45,14 @@ function Footer() {
                     </div>
 
                     <div className="col-lg-3 py-3" >
-                    <p><h5>Contact Us</h5></p>
+                    <h5>Contact Us</h5>
                     <p className="text-muted" >203 Fake St. Mountain View, San Francisco, California, USA</p>
                     <p className="" ><a className="text-decoration-none link2" href="####">+00 1122 3344 5566</a></p>
                     <p className="" ><a className="text-decoration-none link2" href="####">seogram@temporary.com</a></p>
                     </div>
 
                     <div className="col-lg-3 py-3" >
-                    <p><h5>Newsletter</h5></p>
+                    <h5>Newsletter</h5>
                     <p className="text-muted" >Get updates, news or events on your mail.</p>
                     <form action="##" method='post' >
                     <p><input className="input form-control" placeholder="Enter your Email." type="text" name="newsletter" ></input></p>
