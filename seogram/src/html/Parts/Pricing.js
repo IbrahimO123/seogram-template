@@ -21,7 +21,7 @@ function Pricing() {
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Basic</p>
                                 <div className="" > 
-                                 <p><span className="sup1" >$</span><h1 className="d-inline-block pack3" >39.<span className="pack2" >99</span></h1></p>
+                                 <span className="sup1" >$</span><h1 className="d-inline-block pack3" >39.<span className="pack2" >99</span></h1>
                                 </div>
                                  <h5 className="per1" >PER MONTH</h5>
                                 </div>
@@ -42,7 +42,7 @@ function Pricing() {
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Standard</p>
                                 <div className="" > 
-                                 <p><span className="sup1" >$</span><h1 className="d-inline-block pack3" >59.<span className="pack2" >99</span></h1></p>
+                                 <span className="sup1" >$</span><h1 className="d-inline-block pack3" >59.<span className="pack2" >99</span></h1>
                                 </div>
                                  <h5>PER MONTH</h5>
                                 </div>
@@ -63,7 +63,7 @@ function Pricing() {
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Professionals</p>
                                 <div className="" > 
-                                 <p><span className="sup1" >$</span><h1 className="d-inline-block pack3" >99.<span className="pack2" >99</span></h1></p>
+                                 <span className="sup1" >$</span><h1 className="d-inline-block pack3" >99.<span className="pack2" >99</span></h1>
                                 </div>
                                  <h5 className="per1" >PER MONTH</h5>
                                 </div>
