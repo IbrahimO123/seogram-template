@@ -1,11 +1,18 @@
 import React from 'react'
+import Jumbo from './Parts/Jumbo.js';
+import Content from './Parts/Content.js';
+import ServiceUs from './Parts/ServiceUs.js';
+import Footer from './Parts/Footer.js';
+
 
 function Service() {
     return (
-        <div>
-        This is the <h3>service</h3> page
-            
-        </div>
+        <>
+        <Jumbo name="Services" service="Our Services" />
+        <Content/>
+        <ServiceUs/>
+        <Footer/>       
+        </>
     )
 }
 
