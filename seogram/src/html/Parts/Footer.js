@@ -55,8 +55,8 @@ function Footer() {
                     <h5>Newsletter</h5>
                     <p className="text-muted" >Get updates, news or events on your mail.</p>
                     <form action="##" method='post' >
-                    <p><input className="input form-control" placeholder="Enter your Email." type="text" name="newsletter" ></input></p>
-                    <p><button className="btn py-2 form-control mt-2 bg-success" type='submit' >Subscribe</button></p>
+                    <p><input className="input form-control gap-1" placeholder="Enter your Email." type="text" name="newsletter" ></input></p>
+                    <p><button className="btn py-2 form-control bg-success" type='submit' >Subscribe</button></p>
                     </form>
                     </div>
                </div>
