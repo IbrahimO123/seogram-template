@@ -128,6 +128,37 @@ body {
   overflow: hidden;
 }
 
+.macode {
+  text-decoration: none;
+}
+
+.macode:hover {
+  text-decoration: underline;
+  text-decoration-color: darkgreen;
+}
 .post-date {
   font-size: 13px;
+}
+
+.banner{
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 320px;
+  background-color: #F6F5FC;
+  color: #645F88;
+  border-radius: 30px;
+  z-index: 10;
+}
+
+@media screen and (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(100, 95, 136, 0.75);
+}
 }
