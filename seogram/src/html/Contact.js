@@ -1,10 +1,13 @@
 import React from 'react';
+import Jumbo from './Parts/Jumbo.js';
+import Footer from './Parts/Footer.js';
 
 function Contact() {
     return (
-        <div>
-            This is <h3>Contact</h3> page
-        </div>
+        <>
+            <Jumbo name="Contact" service="Contact Us"/>
+            <Footer/>
+        </>
     )
 }
 
