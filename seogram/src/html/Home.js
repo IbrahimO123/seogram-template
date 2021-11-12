@@ -29,7 +29,7 @@ function Home() {
         <div>
         {/***********************Header *******************/}
         <div  className="container" >
-            <div className="jumbotron jumbotron-fluid bg-light mt-4 py-5">
+            <div className="jumbotron jumbotron-fluid bg-light mt-4 py-5 banner2">
             <div className="row align-items-center flex-wrap-reverse h-100" >
              <div  className="col-md-6 py-5">
                 <div className="px-5 mb-4" id='banner1' >
