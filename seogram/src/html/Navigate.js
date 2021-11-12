@@ -5,7 +5,7 @@ function Navigate() {
 
     return (
         <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+      <nav className="navbar navbar-expand-lg navbar-light py-3 bg-white position-sticky top-0 start-0 z-2">
       <div className="container">
         <a href="####" className="navbar-brand">Seo<span className="per1">Gram.</span></a>
 
