@@ -5,7 +5,7 @@ function AboutUs() {
     return (
         <>
             {/******************************About Us ***************************************************/}
-            <div className="my-5 py-5" >
+            <div className="pt-5 pb-4 mt-5" >
                    <div className="container" >
                    <div className="row align-items-center" >
                     <div className="col-lg-6 py-3" >
