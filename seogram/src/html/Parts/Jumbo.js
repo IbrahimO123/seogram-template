@@ -9,7 +9,7 @@ function Jumbo({name, service}) {
                         <div className="col-md-6">
                             <nav aria-label="Breadcrumb">
                             <ul className="breadcrumb justify-content-center py-0 bg-transparent">
-                                <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li className="breadcrumb-item"><a className="text-decoration-none" href="/">Home</a></li>
                                 <li className="breadcrumb-item active">{name}</li>
                             </ul>
                             </nav>
