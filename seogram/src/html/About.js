@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Jumbo from './Parts/Jumbo.js';
+import AboutUs from './Parts/AboutUs.js';
+import Pricing from './Parts/Pricing.js';
+import Footer from './Parts/Footer.js';
 
 function About() {
     return (
-        <div>
-            This is <h3>about</h3> page
-        </div>
+        <>
+            <Jumbo name="About" service="About Us" />
+            <AboutUs/>
+            <Pricing/>
+            <Footer/>
+        </>
     )
 }
 
