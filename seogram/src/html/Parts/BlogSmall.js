@@ -19,13 +19,13 @@ function BlogSmall() {
   {/****************************Blog section ************************************/}
   <div className="my-3" >
            <div className="container" >
-           <div className="text-center pt-5 pb-4" >
+           <div className="text-center pt-5 pb-4 wow animate__animated animate__fadeInUp" >
                      <p className="subhead" >OUR BLOG</p>
                     <p className="text-secondary h2" >Read Latest News</p>
                     <p className="divider mx-auto" ></p>
                 </div>
                <div className="row mt-5" >
-                <div className="col-lg-4 py-3" >{/******************card-1 ******************/}
+                <div className="col-lg-4 py-3 wow animate__animated animate__fadeInUp" >{/******************card-1 ******************/}
                 <div className="card border border-light blog" style={boxstyle1} >
                 <p className="card-img img-fluid img-top blog-img" > <img style={blogImg} src={blog1} alt="service3.svg"></img></p>
                    <div className="card-body">
@@ -36,7 +36,7 @@ function BlogSmall() {
                 </div> {/*********************  card-1  ***************/}
 
                    {/*****************  card-2  ***************************/}
-               <div className="col-lg-4 py-3" >
+               <div className="col-lg-4 py-3 wow animate__animated animate__fadeInUp" >
                 <div className="card border border-light box blog" style={boxstyle1} >
                 <p className="card-img img-fluid img-top blog-img" > <img style={blogImg} src={blog2} alt="service3.svg"></img></p>
                   <div className="card-body">
@@ -47,7 +47,7 @@ function BlogSmall() {
                 </div>{/********************** card-2  *************************/}
 
                 {/*************************** card-3  ****************************/}
-                <div className="col-lg-4 py-3" >
+                <div className="col-lg-4 py-3 wow animate__animated animate__fadeInUp" >
                 <div className="card border border-light box blog" style={boxstyle1}>
                 <p className="card-img img-fluid img-top blog-img" > <img style={blogImg} src={blog3} alt="service3.svg"></img></p>
                     <div className="card-body" >
@@ -58,7 +58,7 @@ function BlogSmall() {
                 </div>{/******************* card-3  ****************************/}
                 </div>
                 <div className="my-5" >
-                <p className="card-link text-center mx-auto" ><button className="btn btn-secondary bg" >View More</button></p>
+                <p className="card-link text-center mx-auto wow animate__animated animate__fadeInUp" ><button className="btn btn-secondary bg" >View More</button></p>
                 </div>
                 </div>
             </div> 
