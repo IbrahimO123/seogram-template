@@ -8,7 +8,7 @@ function AboutUs() {
             <div className="pt-5 pb-4 mt-5" >
                    <div className="container" >
                    <div className="row align-items-center" >
-                    <div className="col-lg-6 py-3" >
+                    <div className="col-lg-6 py-3 wow animate__animated animate__fadeInUp" >
                        <div>
                               <div className="subhead" >ABOUT US</div>
                                 <h2 className="text-secondary w-75" > The number #1 SEO Service Company </h2>
@@ -24,7 +24,7 @@ function AboutUs() {
                               <p className="card-link" ><button className="btn btn-secondary bg" >Read More</button></p>
                         </div>
                    </div>
-                   <div className="col-lg-6 py-3" >
+                   <div className="col-lg-6 py-3 wow animate__animated animate__fadeInRight" >
                        <p><img src={frame1} alt="man sitting and pressing a pc" ></img></p>
                    </div>
                    </div>
