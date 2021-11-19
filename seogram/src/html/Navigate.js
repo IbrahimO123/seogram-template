@@ -15,7 +15,7 @@ function Navigate() {
 
         <div className="navbar-collapse collapse" id="navbarContent">
           <ul className="navbar-nav ms-auto justify-content-around">
-            <li className="nav-item active">
+            <li className="nav-item ">
               <a className="nav-link" href="/">Home</a>
             </li>
             <li className="nav-item">
@@ -35,7 +35,6 @@ function Navigate() {
             </li>
           </ul>
         </div>
-
       </div>
     </nav>
         </>
