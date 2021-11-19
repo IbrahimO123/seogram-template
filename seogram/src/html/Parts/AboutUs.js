@@ -25,7 +25,7 @@ function AboutUs() {
                         </div>
                    </div>
                    <div className="col-lg-6 py-3 wow animate__animated animate__fadeInRight" >
-                       <p><img src={frame1} alt="man sitting and pressing a pc" ></img></p>
+                       <p><img className="img-fluid" src={frame1} alt="man sitting and pressing a pc" ></img></p>
                    </div>
                    </div>
                    </div>

@@ -105,8 +105,8 @@ function Home() {
                              </ul>
                         </div>
                    </div>
-                   <div className="col-lg-6 py-3 pr-lg-5 mt-3 ml-4 text-center wow animate__animated animate__fadeInRight" >
-                       <p className=""><img className="img-responsive" src={banner2} alt="" ></img></p>
+                   <div className="col-lg-6 py-3 pr-lg-5 mt-3 ml-4 text-center wow animate__animated animate__fadeIn" >
+                       <p className=""><img className="img-fluid" src={banner2} alt="" ></img></p>
                    </div>
               </div>
             </div>
