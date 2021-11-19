@@ -72,6 +72,11 @@ body {
   vertical-align: top;
   font-weight: 700;  
 }
+.label {
+  color:#898798;
+  font-size: 1rem;
+  font-weight: 400;
+}
 .link2 {
   color:#898798;
 }
@@ -97,6 +102,7 @@ body {
   color: #898798;
   overflow: hidden;
 }
+
 .price2 {
   position: relative;
   display: block;
@@ -119,6 +125,38 @@ body {
   border-radius: 8px;
   box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
 }
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e0dfe9b3;
+    visibility: visible;
+    cursor: pointer;
+    transition: all .2s ease;
+    z-index: 1100;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5;
+    color: #2D2B3A;
+}
+.back-to-top::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: -4px auto;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #555;
+  border-right: 2px solid #555;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
 .blog{
   display: block;
   margin: 0 auto;
@@ -154,7 +192,10 @@ body {
 .banner2 {
   border-radius: 30px; 
 }
-
+#navbarContent ul li a:active {
+   font-weight: 500;
+    color: #6C55F9;
+}
 @media screen and (min-width: 992px) {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 16px;
