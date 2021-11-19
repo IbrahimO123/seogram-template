@@ -35,39 +35,56 @@ function Contact() {
       </div>
     </div>
     {/******** Get In Touch **********/}
-    <div className="container">
-      <div className=""> 
-            <form>
-            <p>Get In Touch</p>
-            <div className="row" > 
-            <div className="col-lg-4" >
-                <label>First Name</label>
-                <input type="text" className="" ></input>
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <form action="#" class="contact-form py-5 px-lg-5">
+            <h2 class="mb-4 font-weight-medium text-secondary">Get in touch</h2>
+            <div class="row form-group">
+              <div class="col-md-6 mb-3 mb-md-4">
+                <label class="label" for="fname">First Name</label>
+                <input type="text" id="fname" class="form-control"></input>
+              </div>
+              <div class="col-md-6">
+                <label class="label" for="lname">Last Name</label>
+                <input type="text" id="lname" class="form-control"></input>
+              </div>
             </div>
-            <div className="col-lg-4" >
-                <label>Last Name</label>
-                <input type="text" className="" ></input>
-            </div>
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" className="" ></input>
-            </div>
-            <div>
-                <label>Subject</label>
-                <input type="text" className="" ></input>
-            </div>
-            <div>
-                <label>Message</label>
-                <input type="textarea" className="" ></input>
-            </div>
-            </form>
-            <div>
-
-            </div>
-      </div>
-    </div>
     
+            <div class="row form-group">
+              <div class="col-md-12 mb-4">
+                <label class="label" for="email">Email</label>
+                <input type="email" id="email" class="form-control"></input>
+              </div>
+            </div>
+    
+            <div class="row form-group">
+    
+              <div class="col-md-12 mb-4">
+                <label class="label" for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control"></input>
+              </div>
+            </div>
+    
+            <div class="row form-group">
+              <div class="col-md-12 mb-4">
+                <label class="label" for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" class="form-control label" placeholder="Write your notes or questions here..."></textarea>
+              </div>
+            </div>
+    
+            <div class="row form-group mt-4">
+              <div class="col-md-12">
+                <input type="submit" value="Send Message" class="btn btn-secondary btn-lg bg"></input>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6 px-0">
+          <div class="maps-container"><div id="google-maps"></div></div>
+        </div>
+      </div>
+    </div>    
     
             <Footer/>
         </>
