@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './html/Home.js';
-import { BrowserRouter,Routes, Route} from 'react-router-dom';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
 import Service from './html/Service.js';
 import Blog from './html/Blog';
 import Contact from './html/Contact.js';
@@ -12,13 +12,14 @@ function App() {
     <div className="App">
           <Navigate/>
           <BrowserRouter>
-              <Routes>
-                    <Route path="/" element={<Home/>} />
-                    <Route path="/about" element={<About/>} />
-                    <Route path="/service" element={<Service/>} />
-                    <Route path="/blog" element={<Blog/>} />
-                    <Route path="/contact" element={<Contact/>}/>
-              </Routes>
+          
+                      <Routes>
+                            <Route path="/" element={<Home/>} />
+                            <Route path="/about" element={<About/>} />
+                            <Route path="/service" element={<Service/>} />
+                            <Route path="/blog" element={<Blog/>} />
+                            <Route path="/contact" element={<Contact/>}/>
+                      </Routes>
            </BrowserRouter>
            </div>
     
