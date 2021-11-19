@@ -11,13 +11,13 @@ function Pricing() {
             {/*********************************** PRICING PLAN *********************************/}
             <div className="price1" >
             <div className="container" >
-                  <div className="text-center pt-5 pb-2" >
+                  <div className="text-center pt-5 pb-2 wow animate__animated animate__zoomIn" >
                           <p className="subhead" >PRICING PLAN</p>
                           <p className="text-secondary  h2" >Choose plan the right for you</p>
                           <p className="divider mx-auto" ></p>
                       </div>
                          <div className="row mt-5" >
-                              <div className="col-lg-3 text-center price2" style={boxstyle1} >{/*******Price Plan 1 */}
+                              <div className="col-lg-3 text-center price2 wow animate__animated animate__zoomIn" style={boxstyle1} >{/*******Price Plan 1 */}
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Basic</p>
                                 <div className="" > 
@@ -38,7 +38,7 @@ function Pricing() {
                               </div>{/*******Price Plan 1 ************/}
                                           
                                 {/**************Price Plan 2 ********************/}
-                              <div className="col-lg-3 text-white text-center price2 bg" style={boxstyle1} >
+                              <div className="col-lg-3 text-white text-center price2 bg wow animate__animated animate__zoomIn" style={boxstyle1} >
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Standard</p>
                                 <div className="" > 
@@ -59,7 +59,7 @@ function Pricing() {
                               </div>{/*************** Price Plan 2 **********/}
 
                                   {/*****************************Price Plan 3 ***********************/}
-                              <div className="col-lg-3 text-center price2" style={boxstyle1} >
+                              <div className="col-lg-3 text-center price2 wow animate__animated animate__zoomIn" style={boxstyle1} >
                               <div className=" border1 pb-2" >
                                 <p className="pack1" >Professionals</p>
                                 <div className="" > 
